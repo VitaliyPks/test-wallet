@@ -13,7 +13,7 @@ import Menu from "./components/Menu/Menu.tsx";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="test-wallet">
         <div className="bg-[#1E1E1E] min-h-screen">
           <Menu>
             <App />
