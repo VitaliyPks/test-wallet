@@ -63,11 +63,6 @@ const useChart = ({
   useEffect(() => {
     if (!chartContainerRef.current) return;
 
-    console.log(
-      chartContainerRef.current.clientWidth,
-      "chartContainerRef.current.clientWidth"
-    );
-
     const chart = createChart(chartContainerRef.current, {
       layout: {
         background: { color: "#1E1E1E" },
